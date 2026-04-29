@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biography | Melanie Hernandez</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    margin: 0;
+  font-family: 'Playfair Display', serif;
+  color: #222;
+  background: linear-gradient(135deg, #D7C5E0, #FFFFFF);
+  min-height: 100vh;
+    }
+
+    .site-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      border-bottom: 1px solid #ddd;
+      background: #eaf4ff;
+    }
+
+    .brand-link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .headshot {
+      width: 64px;
+      height: 64px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .brand-text h1 {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: normal;
+    }
+
+    .site-nav {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .site-nav a {
+      text-decoration: none;
+      color: #222;
+    }
+
+    .site-nav a:hover,
+    .site-nav a.active {
+      text-decoration: underline;
+    }
+
+    .page-content {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background: #eaf4ff;
+    }
+
+    @media (max-width: 768px) {
+      .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <a href="index.html" class="brand-link">
+        <img src="images/headshot.jpg" alt="Ka Hei Cheng headshot" class="headshot" />
+        <div class="brand-text">
+          <h1>Melanie Hernandez</h1>
+        </div>
+      </a>
+    </div>
+
+    <nav class="site-nav">
+      <a href="biography.html" class="active">Biography</a>
+      <a href="personal-statement.html">Personal Statement</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-content">
+    <h2>Biography</h2>
+    <p>I'm Melanie Hernandez, I am 16 years old and born on July 3rd, 2009. I have two best friends that means the world to me. My favorite colors are wine red,white, and light purple. My first car is going to be a corvette c7 either grandsports, zo6, or base model. I really like cars, the way they look and sound. Seeing my dream cars on the street makes my day. My favorite drink I always get when i have a chance are Icys/Forzen. Even my friends buy me one since they know I love icys. Im not really a talkive person if I dont see my friends, and I don't really like making new friends. I rather be alone then becoming friends with those who are double face, fake, or those who are bad in general. </p>
+  </main>
+</body>
+</html>

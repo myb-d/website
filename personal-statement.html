@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Statement | Melanie Hernandez</title>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #eaf4ff;
+      font-family: Arial, sans-serif;
+      color: #222;
+    }
+
+    .site-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      border-bottom: 1px solid #ddd;
+      background: #eaf4ff;
+    }
+
+    .brand-link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .headshot {
+      width: 64px;
+      height: 64px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .brand-text h1 {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: normal;
+    }
+
+    .site-nav {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .site-nav a {
+      text-decoration: none;
+      color: #222;
+    }
+
+    .site-nav a:hover,
+    .site-nav a.active {
+      text-decoration: underline;
+    }
+
+    .page-content {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background: #eaf4ff;
+    }
+
+    @media (max-width: 768px) {
+      .site-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <a href="index.html" class="brand-link">
+        <img src="images/headshot.jpg" alt="Melanie Hernandez headshot" class="headshot" />
+        <div class="brand-text">
+          <h1>Melanie Hernandez</h1>
+        </div>
+      </a>
+    </div>
+
+    <nav class="site-nav">
+      <a href="biography.html">Biography</a>
+      <a href="personal-statement.html">Personal Statement</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="Skill-Ability.html">Skill and Ability</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-content">
+    <h2>Personal Statement</h2>
+    <p>Welcome to my website! Since 2023, when I was a freshman, I have been taking coding and programming classes that have helped me grow both my skills and my confidence as a developer. Throughout these years, I have worked on a variety of projects, each one teaching me something new and pushing me to improve. The projects you see here represent just a portion of the work I have completed over time, both in the past and more recently. In 2025, I had the opportunity to begin working on projects in groups for the first time. This experience allowed me to collaborate with others, share ideas, and learn how to approach problems as part of a team. It was a valuable step forward in my journey as a programmer. Programming has always been something I genuinely enjoy. Whether I am solving problems, creating new designs, or learning new languages, I find the process exciting and rewarding. I look forward to continuing to develop my skills and taking on even more challenging projects in the future.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Melanie Hernandez</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html, body {
+        margin: 0;
+        padding: 0;
+        background: #eaf4ff;
+        font-family: Arial, sans-serif;
+        color: #222;
+      }
+
+      .site-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        border-bottom: 1px solid #ddd;
+        background: #eaf4ff;
+      }
+
+      .brand-link {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .headshot {
+        width: 64px;
+        height: 64px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+
+      .brand-text h1 {
+        margin: 0;
+        font-size: 1.2rem;
+        font-weight: normal;
+      }
+
+      .site-nav {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .site-nav a {
+        text-decoration: none;
+        color: #222;
+      }
+
+      .site-nav a:hover,
+      .site-nav a.active {
+        text-decoration: underline;
+      }
+
+      .page-content {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        background: #eaf4ff;
+      }
+
+      @media (max-width: 768px) {
+        .site-header {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 16px;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">
+        <a href="index.html" class="brand-link">
+          <img
+            src="images/headshot.jpg"
+            alt="Melanie Hernandez headshot"
+            class="headshot"
+          />
+          <div class="brand-text">
+            <h1>Melanie Hernandez</h1>
+          </div>
+        </a>
+      </div>
+
+      <nav class="site-nav">
+        <a href="biography.html">Biography</a>
+        <a href="personal-statement.html">Personal Statement</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="Skill-Ability.html">Skill and Ability</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page-content">
+      <h2>Portfolio</h2>
+
+      <ul>
+        
+      <p>Minimalist Poster Project-Cover Design 
+        Overview: 11th grade, A minimalist poster is a graphic design piece that communicates a message through extreme simplicity, focusing on essential elements, negative space, and clean lines. </p>
+        <li><a href="https://drive.google.com/file/d/1cdQM2MiNIqE46OPxGrsAvZjThvXif15v/view"> https://drive.google.com/file/d/1cdQM2MiNIqE46OPxGrsAvZjThvXif15v/view</a></li>
+        <p>Makecode Arcade-ICT 
+        Overview: 10th grade, Programming by creating and modding retro arcade games with Blocks and JavaScript in the MakeCode editor.</p>
+      <li> <a href="https://arcade.makecode.com/20430-34867-56006-42651"> https://arcade.makecode.com/20430-34867-56006-42651</a></li>
+        <p>Mr. Bean - Project
+        Overview: 11th grade, Jelly Bean Advertisement, coding to create a game created by our group. </p>
+      <li> <a href="https://editor.p5js.org/mher067120/full/yMpD45Ya5">https://editor.p5js.org/mher067120/full/yMpD45Ya5</a></li>
+         <p>Avatar - Project
+        Overview: 9th grade, program will display Toad from Mario. Describing me as short, silly, cheerful, childish ,brave and loyal   </p>
+      <li> <a href="https://cw21.brbytes.org/cw21/#P2WWc7eqQ9xtCd47Akgd0sQ"> https://cw21.brbytes.org/cw21/#P2WWc7eqQ9xtCd47Akgd0sQ</a></li>
+    </ul>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  color: #222;
+  background: linear-gradient(135deg, #D7C5E0, #FFFFFF);
+  min-height: 100vh;
+}
+
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
+  background-color: #eaf4ff;
+}
+
+.brand-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+.headshot {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+.brand-text h1,
+.site-nav a {
+  background: linear-gradient(45deg, #9C0FDB, #DE22E7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h1, h2, h3 {
+  background: linear-gradient(45deg, #9804E0, #DD0DFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.site-nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #222;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+  text-decoration: underline;
+}
+
+.page-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background: #eaf4ff; /* light blue */
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+}
